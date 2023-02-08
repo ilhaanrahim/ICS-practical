@@ -1,3 +1,6 @@
+#2] To demonstrate the substitution cipher
+#Write a program to implement play fair cipher.
+
 def generate_key_matrix(key):
   key = key.replace(" ", "").upper()
   key_matrix = []
