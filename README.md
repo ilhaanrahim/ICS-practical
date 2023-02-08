@@ -2,7 +2,7 @@
 
 Practical 1: 
 To demonstrate classical Cycle.
- Encrypt the given text Message with the help of following algorithm 
+Encrypt the given text Message with the help of following algorithm 
     a. Replace each alphabet with its equivalent 7 bit ASCII Code
     b. Swap the first 4 bits with last 4 bits for each alphabets
     c. Write the hexadecimal equivalent of every 4 bits
