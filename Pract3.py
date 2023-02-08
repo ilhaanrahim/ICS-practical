@@ -1,3 +1,6 @@
+#To demostrate transpositon cipher:
+#Write a program to implement rail fence cypher (row tranposition cypher)
+
 def main():
 
   plain_text = input("Enter the plain text: ")
