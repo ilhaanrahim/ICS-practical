@@ -13,3 +13,7 @@ To demonstrate the substitution cipher, Write a program to implement play fair c
 Practical 3:
 To demostrate transpositon cipher:
 Write a program to implement rail fence cypher (row tranposition cypher)
+
+Practical 4:
+To demonstrate transposition cypher 
+Write a program to implement columnar transposition cypher
