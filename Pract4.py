@@ -1,6 +1,11 @@
 #To demonstrate transposition cypher 
 #Write a program to implement columnar transposition cypher
 
+#Enter the plaintext: The quick brown fox jumps over the lazy dog
+#Enter the key: SECRET
+#Ciphertext: HIUTCFKSROJNPTWQEZXBVGMDLAYE O  U  .
+
+
 import math
 
 
