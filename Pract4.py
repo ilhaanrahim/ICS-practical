@@ -1,3 +1,6 @@
+#To demonstrate transposition cypher 
+#Write a program to implement columnar transposition cypher
+
 import math
 
 
