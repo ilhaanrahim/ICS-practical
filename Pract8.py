@@ -1,4 +1,5 @@
 # Practical 8
+#Elliptic curve
 
 a = int(input('Enter the value of coefficient a: '))
 b = int(input('Enter the value of coefficient b: '))
