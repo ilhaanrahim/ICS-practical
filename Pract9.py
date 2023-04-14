@@ -5,12 +5,31 @@
 
 import hashlib
 
-# encoding GeeksforGeeks using md5 hash
-# function
-print("Enter plain-text to be hashed: ")
-inp = input().encode("utf-8")
-result = hashlib.md5(inp)
+def md5_16byte(message):
+    # Create an instance of the MD5 hash object
+    md5 = hashlib.md5()
 
-# printing the equivalent byte value.
-print("The byte equivalent of hash is : ", end ="")
-print(result.digest())
+    # Update the hash object with the message
+    md5.update(message.encode())
+
+    # Get the hash in hexadecimal format
+    hash_hex = md5.hexdigest()
+
+    # Convert the hexadecimal hash to bytes
+    hash_bytes = bytes.fromhex(hash_hex)
+
+    # Take the first 16 bytes of the hash
+    hash_16byte = hash_bytes[:16]
+
+    # Return the 16-byte hash
+    return hash_16byte
+
+# Take user input for the message
+message = input("Enter the message to be hashed: ")
+
+# Compute the MD-5 hash in 16-byte format
+hash_16byte = md5_16byte(message)
+
+# Print the hash in bytes format
+print("MD-5 hash (16-byte):", hash_16byte)
+
